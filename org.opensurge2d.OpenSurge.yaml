@@ -70,7 +70,7 @@ modules:
       - type: git
         url: https://github.com/alemart/opensurge.git
         #tag: v0.6.1
-        commit: 40560051fcb93a72f20adb91791aa79685e2764a
+        commit: 764b6f1cd9db88ea12c6d1d1e6cc1138b64cfe75
     config-opts:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
       - -DGAME_BUILD_VERSION=flatpak
