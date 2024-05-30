@@ -22,6 +22,8 @@ cleanup:
   - "*.la"
 
 modules:
+  - shared-modules/glu/glu-9.json
+
   - name: libphysfs
     buildsystem: cmake-ninja
     builddir: true
