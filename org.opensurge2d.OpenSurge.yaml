@@ -57,8 +57,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/alemart/surgescript.git
-        tag: v0.6.0
-        commit: 9e194cf4d1fadcdd3484b4ad4261a4ece365071f
+        tag: v0.6.1
+        commit: 56bd599302bbca1eea91d0dc8353257845b314ea
     config-opts:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
       - -DWANT_EXECUTABLE=OFF
@@ -70,8 +70,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/alemart/opensurge.git
-        tag: v0.6.1.1
-        commit: 1c8bfc066e07f66c604d4d9262e5cbe6e651370a
+        tag: v0.6.1.2
+        commit: 5d6d166068a36df7ea05c65d033fc6d1713bcb15
     config-opts:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
       - -DGAME_BUILD_VERSION=flatpak
