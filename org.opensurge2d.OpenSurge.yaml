@@ -10,7 +10,6 @@ rename-appdata-file: opensurge.appdata.xml
 finish-args:
   - --socket=x11
   - --share=ipc
-  - --device=dri
   - --socket=pulseaudio
   - --filesystem=xdg-download:ro
   - --device=all
